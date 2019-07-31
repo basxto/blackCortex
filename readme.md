@@ -1,6 +1,14 @@
+!This asset pack is not finished yet!
+
 This is an asset replacement meant for https://github.com/liberated-cortex/CCOSS.
 
-See [attribution.md](./attribution.md) for attributions
+The goal is to make the game playable with this replacement, it's not meant as a full replacement for Cortex Command.
+
+It's also diserable to reach a stage, where standalone mods can build upon this.
+
+All code is licensed under MIT license.
+
+See [attribution.md](./attribution.md) for graphics attributions.
 
 Some images have to be converted from PNG to BMP.
 This can be done with:
