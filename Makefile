@@ -8,12 +8,12 @@ palette= -dither FloydSteinberg -remap Base.rte/palette.bmp
 build: build_titles build_textures
 
 .PHONY: build_titles
-build_titles: $(title)/Planet.bmp $(title)/PlanetAlpha.bmp $(title)/Moon.bmp $(title)/MoonAlpha.bmp $(title)/Title.bmp $(title)/TitleAlpha.bmp
+build_titles: $(title)/Planet.bmp $(title)/PlanetAlpha.bmp $(title)/Moon.bmp $(title)/MoonAlpha.bmp $(title)/Title.bmp $(title)/TitleAlpha.bmp $(title)/Nebula.bmp
 
 .PHONY: build_textures
 build_textures: $(texture)/Water.bmp $(texture)/Soil.bmp $(texture)/Snow.bmp $(texture)/Sand.bmp $(texture)/RockRed.bmp $(texture)/RockDarkRed.bmp $(texture)/RockBlack.bmp  $(texture)/Ice.bmp  $(texture)/Grass.bmp $(texture)/DirtRough.bmp $(texture)/DirtMedium.bmp $(texture)/DirtFine.bmp $(texture)/DirtDark.bmp
 
-Base.rte/palette.bmp: $(texture)/Water_128.bmp $(texture)/Soil_128.bmp $(texture)/Snow_128.bmp $(texture)/Sand_128.bmp $(texture)/RockRed_128.bmp $(texture)/RockDarkRed_128.bmp $(texture)/RockBlack_128.bmp  $(texture)/Ice_128.bmp  $(texture)/Grass_128.bmp $(texture)/DirtRough_128.bmp $(texture)/DirtMedium_128.bmp $(texture)/DirtFine_128.bmp $(texture)/DirtDark_128.bmp $(title)/Planet.png $(title)/Moon.png $(title)/Title.png 
+Base.rte/palette.bmp: $(texture)/Water_128.bmp $(texture)/Soil_128.bmp $(texture)/Snow_128.bmp $(texture)/Sand_128.bmp $(texture)/RockRed_128.bmp $(texture)/RockDarkRed_128.bmp $(texture)/RockBlack_128.bmp  $(texture)/Ice_128.bmp  $(texture)/Grass_128.bmp $(texture)/DirtRough_128.bmp $(texture)/DirtMedium_128.bmp $(texture)/DirtFine_128.bmp $(texture)/DirtDark_128.bmp $(title)/Planet.png $(title)/Moon.png $(title)/Title.png $(title)/Nebula.png
 	$(montage) $^ -background black -geometry +0+0 $@
 	$(convert) $@ -dither FloydSteinberg -colors 256 -unique-colors -crop 16x16 -append $@
 	$(convert) -define bmp:format=bmp3 -type palette $@ $@
@@ -21,7 +21,7 @@ Base.rte/palette.bmp: $(texture)/Water_128.bmp $(texture)/Soil_128.bmp $(texture
 $(title)%Alpha.bmp: $(title)%.png
 	$(convert) -alpha extract  "$<" "$@"
 
-$(title)%.bmp: $(title)%.png Base.rte/palette.bmp | $(title)%Alpha.bmp
+$(title)%.bmp: $(title)%.png Base.rte/palette.bmp
 	$(convert) -background black -flatten "$<" "$@"
 	$(convert) -type palette "$@" $(palette) "$@"
 	
