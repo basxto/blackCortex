@@ -2,5 +2,9 @@ Base.rte/Title/*Alpha.bmp
 Base.rte/Title/Moon.bmp
 Base.rte/Title/Planet.bmp
 Base.rte/Title/Title.bmp
+Base.rte/Title/Nebula.bmp
 Base.rte/Scenes/Textures/*.bmp
 Base.rte/palette.bmp
+Base.rte/Settings.ini
+abortscreen.bmp
+cortex
