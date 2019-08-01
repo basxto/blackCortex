@@ -20,11 +20,11 @@ Base.rte/palette.bmp: $(texture)/Water_128.bmp $(texture)/Soil_128.bmp $(texture
 
 .PRECIOUS: $(title)%Alpha.bmp
 $(title)%Alpha.bmp: $(title)%.png
-	$(convert) -alpha extract  "$<" "$@"
+	$(convert) -alpha extract -type palette "$<" "$@"
 
 $(title)%.bmp: $(title)%.png | Base.rte/palette.bmp $(title)/%Alpha.bmp
 	$(convert) -background black -flatten "$<" "$@"
-	$(convert) -type palette "$@" $(palette) "$@"
+	#$(convert) "$@" $(palette) "$@"
 	
 $(texture)%_128.bmp: $(texture)%.png
 	$(convert) -resize 128x128 "$<" "$@"
