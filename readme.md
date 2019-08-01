@@ -19,9 +19,3 @@ $ make
 
 Currently you need to copy a few files from your original copy of Cortex Command:
 * Base.rte/GUIs/
-* Base.rte/Effects.ini
-* Base.rte/Effects/
-* Base.rte/Actors/Clones/Jetpack.bmp
-* Base.rte/Actors/Clones/JetpackNozzle.bmp
-* Base.rte/Scenes/Objects/Gold/
-* Base.rte/Materials.ini
