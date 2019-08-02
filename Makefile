@@ -37,7 +37,7 @@ palette_db16:
 
 .PRECIOUS: $(title)%Alpha.bmp
 $(title)%Alpha.bmp: $(title)%.png
-	$(convert) -alpha extract -type palette "$<" "$@"
+	$(convert) -alpha extract "$<" "$@"
 
 $(title)%.bmp: $(title)%.png | Base.rte/palette.bmp $(title)/%Alpha.bmp
 	$(convert) -background black -flatten "$<" "$@"
