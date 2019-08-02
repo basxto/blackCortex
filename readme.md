@@ -11,11 +11,14 @@ All code is licensed under MIT license.
 See [attribution.md](./attribution.md) for graphics attributions.
 
 Some images have to be converted from PNG to BMP.
-This can be done with:
+You need to have imagemagick installed for this.
+Converting is done with:
 ```
 $ make
 ```
 
-
-Currently you need to copy a few files from your original copy of Cortex Command:
-* Base.rte/GUIs/
+Status:
+* Crash free until main menu
+* GUI is not usable, all buttons stacked at one place
+* All game editors crash
+* Choosing tutorial when selecting campaign crashes
