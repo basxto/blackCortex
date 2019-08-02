@@ -5,6 +5,7 @@ Base.rte/Title/Title.bmp
 Base.rte/Title/Nebula.bmp
 Base.rte/Scenes/Textures/*.bmp
 Base.rte/palette.bmp
+Log*.txt
 Base.rte/Settings.ini
 abortscreen.bmp
 cortex
