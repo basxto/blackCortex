@@ -8,13 +8,13 @@ Gamepad*.bmp and DualAnalog*.bmp in [Base.rte/GUIs/Controllers/](./Base.rte/GUIs
 
 Other textures in [Base.rte/Scenes/Textures/](Base.rte/Scenes/Textures/) are from [Terrain textures pack (from Stunt Rally 2.3)][stuntrally] and are licensed under [CC0][] by [CryHam][].
 
-[Base.rte/GUIs/Skins/MainMenu/Cursive1.bmp](./Base.rte/GUIs/Skins/MainMenu/Cursive1.bmp) is a slightly modified version of Cursive1 from [New original Grafx2 font collection][grafx2font], which is licensed under [CC0][] by [usr_share][].
+[Base.rte/GUIs/Skins/MainMenu/Cursive1.bmp](./Base.rte/GUIs/Skins/MainMenu/Cursive1.bmp) is a slightly modified version of Cursive1 and [Base.rte/GUIs/Skins/MainMenu/NeoSans.bmp](./Base.rte/GUIs/Skins/MainMenu/NeoSans.bmp) is a NeoSans from [New original Grafx2 font collection][grafx2font], which is licensed under [CC0][] by [usr_share][].
 
 [Base.rte/GUIs/Skins/MainMenu/goldgui.bmp](./Base.rte/GUIs/Skins/MainMenu/goldgui.bmp) is based on [Golden UI][goldenui], which is licensed under [CC0][] by [Buch][].
 
 [Base.rte/GUIs/Skins/MainMenu/pointer.bmp](./Base.rte/GUIs/Skins/MainMenu/pointer.bmp) is based on [Concrete UI, part 2][concreteui2], which is licensed under [CC0][] by [Buch][].
 
-
+[Base.rte/GUIs/Skins/MainMenu/tom_thumb_shadow.bmp](./Base.rte/GUIs/Skins/MainMenu/tom_thumb_shadow.bmp) is based on [Tom Thumb Tiny ASCII font (3x5)][tomthumb] , which is licensed under [CC0][] by [Robey Pointer][robey].
 
 
 
@@ -25,6 +25,7 @@ Other textures in [Base.rte/Scenes/Textures/](Base.rte/Scenes/Textures/) are fro
 [grafx2font]: https://opengameart.org/content/new-original-grafx2-font-collection
 [goldenui]: https://opengameart.org/content/golden-ui
 [concreteui2]: https://opengameart.org/content/concrete-ui-part-2
+[tomthumb]: https://opengameart.org/content/tom-thumb-tiny-ascii-font-3x5
 
 [Basxto]: https://opengameart.org/users/ba%C5%9Dto
 [Rawdanitsu]: https://opengameart.org/users/rawdanitsu
@@ -33,5 +34,6 @@ Other textures in [Base.rte/Scenes/Textures/](Base.rte/Scenes/Textures/) are fro
 [CryHam]: https://opengameart.org/users/cryham
 [usr_share]: https://opengameart.org/users/usrshare
 [Buch]: https://opengameart.org/users/buch
+[robey]: http://robey.lag.net/
 
 [CC0]: http://creativecommons.org/publicdomain/zero/1.0/
