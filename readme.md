@@ -2,6 +2,8 @@
 
 This is an asset replacement meant for https://github.com/liberated-cortex/CCOSS.
 
+![screenshot](./screenshots/2019-08-03_16:02_960x540.png)
+
 The goal is to make the game playable with this replacement, it's not meant as a full replacement for Cortex Command.
 
 It's also diserable to reach a stage, where standalone mods can build upon this.
