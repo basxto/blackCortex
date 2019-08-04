@@ -1,6 +1,6 @@
-[Base.rte/Title/Moon.png](./Base.rte/Title/Moon.png) and [Base.rte/Title/Planet.png](./Base.rte/Title/Planet.png) are based on [2D Planets][2dplanets], which is licensed under [CC0][] by [Rawdanitsu][].
+## Graphics
 
-Rest in [Base.rte/Title/](./Base.rte/Title/) is licensed under [CC0][] by [Basxto][].
+[Base.rte/Title/Moon.png](./Base.rte/Title/Moon.png) and [Base.rte/Title/Planet.png](./Base.rte/Title/Planet.png) are based on [2D Planets][2dplanets], which is licensed under [CC0][] by [Rawdanitsu][].
 
 Gamepad*.bmp and DualAnalog*.bmp in [Base.rte/GUIs/Controllers/](./Base.rte/GUIs/Controllers/) are based on [XBOX + PC Controls][xboxpc], which is licensed under [CC0][] by [keenjikun][].
 
@@ -16,6 +16,20 @@ Other textures in [Base.rte/Scenes/Textures/](Base.rte/Scenes/Textures/) are fro
 
 [Base.rte/GUIs/Skins/MainMenu/tom_thumb_shadow.bmp](./Base.rte/GUIs/Skins/MainMenu/tom_thumb_shadow.bmp) is based on [Tom Thumb Tiny ASCII font (3x5)][tomthumb] , which is licensed under [CC0][] by [Robey Pointer][robey].
 
+Rest is licensed under [CC0][] by [Basxto][].
+
+## Music
+
+[Base.rte/Music/Hubnester/ccmenu.ogg](./Base.rte/Music/Hubnester/ccmenu.ogg) is based on [Doodle menu like song][doodle], which is licensed under [CC0][] by [StumpyStrust][].
+
+## Sound
+
+[Base.rte/GUIs/Sounds/Splip01.wav](./Base.rte/GUIs/Sounds/Splip01.wav) is based on "Granulized Button Sound.wav" from [Button SFX Pack II - Granular Synthesis Styled][buttonsfx], which is licensed under [CC0][] by [Circlerun][].
+
+[Base.rte/GUIs/Sounds/Splip02.wav](./Base.rte/GUIs/Sounds/Splip02.wav) is based on "Granulized Sound 2.wav" from [Button SFX Pack II - Granular Synthesis Styled][buttonsfx], which is licensed under [CC0][] by [Circlerun][].
+
+[Base.rte/GUIs/Sounds/Blip02.wav](./Base.rte/GUIs/Sounds/Blip02.wav) is based on "Roll Over Digi II" from [Button SFX Pack II - Granular Synthesis Styled][buttonsfx], which is licensed under [CC0][] by [Circlerun][].
+
 
 
 [2dplanets]: https://opengameart.org/content/2d-planets-0
@@ -26,6 +40,8 @@ Other textures in [Base.rte/Scenes/Textures/](Base.rte/Scenes/Textures/) are fro
 [goldenui]: https://opengameart.org/content/golden-ui
 [concreteui2]: https://opengameart.org/content/concrete-ui-part-2
 [tomthumb]: https://opengameart.org/content/tom-thumb-tiny-ascii-font-3x5
+[doodle]: https://opengameart.org/content/doodle-menu-like-song
+[buttonsfx]: https://opengameart.org/content/button-sfx-pack-ii-granular-synthesis-styled
 
 [Basxto]: https://opengameart.org/users/ba%C5%9Dto
 [Rawdanitsu]: https://opengameart.org/users/rawdanitsu
@@ -35,5 +51,8 @@ Other textures in [Base.rte/Scenes/Textures/](Base.rte/Scenes/Textures/) are fro
 [usr_share]: https://opengameart.org/users/usrshare
 [Buch]: https://opengameart.org/users/buch
 [robey]: http://robey.lag.net/
+[StumpyStrust]: https://opengameart.org/users/stumpystrust
+[Circlerun]: https://opengameart.org/users/circlerun
+
 
 [CC0]: http://creativecommons.org/publicdomain/zero/1.0/

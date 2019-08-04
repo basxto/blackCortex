@@ -10,7 +10,7 @@ It's also diserable to reach a stage, where standalone mods can build upon this.
 
 All code is licensed under MIT license.
 
-See [attribution.md](./attribution.md) for graphics attributions.
+See [attribution.md](./attribution.md) for graphics, sounds and music attributions.
 
 Some images have to be converted from PNG to BMP.
 You need to have imagemagick installed for this.
