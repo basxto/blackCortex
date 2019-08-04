@@ -3,24 +3,26 @@ montage=montage
 title=Base.rte/Title/
 texture=Base.rte/Scenes/Textures
 palette= -dither FloydSteinberg -remap Base.rte/palette.bmp 
+textures=Water Soil Snow Sand RockRed RockDarkRed RockBlack Ice Grass DirtRough DirtMedium DirtFine DirtDark
+titles=Planet Moon Title Nebula
 
-.PHONY: build
-build: palette_gen build_titles build_textures
+.PHONY: all
+all: palette_gen titles textures
 
 .PHONY: build16
-build16: palette_16 build_titles build_textures
+16: palette_16 titles textures
 
-.PHONY: builddb16
-builddb16: palette_db16 build_titles build_textures
+.PHONY: db16
+db16: palette_db16 titles textures
 
-.PHONY: build_titles
-build_titles: $(title)/Planet.bmp $(title)/Moon.bmp $(title)/Title.bmp $(title)/Nebula.bmp
+.PHONY: titles
+titles: $(foreach img,$(titles),$(title)/$(img).bmp)
 
-.PHONY: build_textures
-build_textures: $(texture)/Water.bmp $(texture)/Soil.bmp $(texture)/Snow.bmp $(texture)/Sand.bmp $(texture)/RockRed.bmp $(texture)/RockDarkRed.bmp $(texture)/RockBlack.bmp  $(texture)/Ice.bmp  $(texture)/Grass.bmp $(texture)/DirtRough.bmp $(texture)/DirtMedium.bmp $(texture)/DirtFine.bmp $(texture)/DirtDark.bmp
+.PHONY: textures
+textures: $(foreach img,$(textures),$(texture)/$(img).bmp)
 
 .PHONY: palette_gen
-palette_gen: $(texture)/Water_128.bmp $(texture)/Soil_128.bmp $(texture)/Snow_128.bmp $(texture)/Sand_128.bmp $(texture)/RockRed_128.bmp $(texture)/RockDarkRed_128.bmp $(texture)/RockBlack_128.bmp  $(texture)/Ice_128.bmp  $(texture)/Grass_128.bmp $(texture)/DirtRough_128.bmp $(texture)/DirtMedium_128.bmp $(texture)/DirtFine_128.bmp $(texture)/DirtDark_128.bmp $(title)/Planet.png $(title)/Moon.png $(title)/Title.png $(title)/Nebula.png
+palette_gen: $(foreach img,$(textures),$(texture)/$(img)_128.bmp) $(foreach img,$(titles),$(title)/$(img).png)
 	$(montage) $^ -background black -geometry +0+0 Base.rte/palette.bmp
 	$(convert) Base.rte/palette.bmp -dither FloydSteinberg -colors 256 -unique-colors -crop 16x16 -append Base.rte/palette.bmp
 	$(convert) -define bmp:format=bmp3 -type palette Base.rte/palette.bmp Base.rte/palette.bmp
@@ -55,6 +57,7 @@ $(texture)%.bmp: $(texture)%_128.bmp | Base.rte/palette.bmp
 .PHONY: clean
 clean:
 	rm Base.rte/palette.bmp
-	rm $(title)/Planet{,Alpha}.bmp $(title)/Moon{,Alpha}.bmp $(title)/Title{,Alpha}.bmp
-	rm $(texture)/*_128.bmp
-	rm $(texture)/Water.bmp $(texture)/Soil.bmp $(texture)/Snow.bmp $(texture)/Sand.bmp $(texture)/RockRed.bmp $(texture)/RockDarkRed.bmp $(texture)/RockBlack.bmp  $(texture)/Ice.bmp  $(texture)/Grass.bmp $(texture)/DirtRough.bmp $(texture)/DirtMedium.bmp $(texture)/DirtFine.bmp $(texture)/DirtDark.bmp
+	rm $(foreach img,$(titles),$(title)/$(img).bmp)
+	rm $(foreach img,$(titles),$(title)/$(img)Alpha.bmp)
+	rm $(foreach img,$(textures),$(texture)/$(img).bmp)
+	rm $(foreach img,$(textures),$(texture)/$(img)_128.bmp)
