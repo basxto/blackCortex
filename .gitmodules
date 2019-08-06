@@ -1,0 +1,3 @@
+[submodule "Stormmy.rte"]
+	path = Stormmy.rte
+	url = git@github.com:basxto/Stormmy.rte.git
