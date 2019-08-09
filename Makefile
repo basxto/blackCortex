@@ -17,8 +17,8 @@ ifndef montage
 $(error "montage is not available, please install imagemagick")
 endif
 
-.PHONY: all
-all: palette_gen titles textures
+.PHONY: cc
+all: palette_cc titles textures
 
 .PHONY: 16
 16: palette_16 titles textures
@@ -26,8 +26,8 @@ all: palette_gen titles textures
 .PHONY: db16
 db16: palette_db16 titles textures
 
-.PHONE: cc
-cc: palette_cc titles textures
+.PHONE: gen
+cc: palette_gen titles textures
 
 .PHONY: titles
 titles: $(foreach img,$(titles),$(title)/$(img).bmp)
@@ -54,7 +54,7 @@ palette_db16:
 # palette of Cortex Command
 .PHONY: palette_cc
 palette_cc:
-	cp Base.rte/palette255_cc.bmp Base.rte/palette.bmp
+	cp Base.rte/palette_cc.bmp Base.rte/palette.bmp
 
 .PRECIOUS: $(title)%Alpha.bmp
 $(title)%Alpha.bmp: $(title)%.png
