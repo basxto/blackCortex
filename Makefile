@@ -1,10 +1,12 @@
 convert::=$(shell command -v convert 2> /dev/null)
 montage::=$(shell command -v montage 2> /dev/null)
 title=Base.rte/Title/
+skin=Base.rte/GUIs/Skins
 texture=Base.rte/Scenes/Textures
 palette= -dither FloydSteinberg -remap Base.rte/palette.bmp 
 textures=Water Soil Snow Sand RockRed RockDarkRed RockBlack Ice Grass DirtRough DirtMedium DirtFine DirtDark
 titles=Planet Moon Title Nebula
+skins=Cursive1 goldgui NeoSans pointer resize text tom_thumb_shadow
 
 ifndef convert
 $(error "convert is not available, please install imagemagick")
@@ -18,22 +20,25 @@ $(error "montage is not available, please install imagemagick")
 endif
 
 .PHONY: cc
-all: palette_cc titles textures
+all: palette_cc titles textures skins
 
 .PHONY: 16
-16: palette_16 titles textures
+16: palette_16 titles textures skins
 
 .PHONY: db16
-db16: palette_db16 titles textures
+db16: palette_db16 titles textures skins
 
 .PHONE: gen
-cc: palette_gen titles textures
+cc: palette_gen titles textures skins
 
 .PHONY: titles
 titles: $(foreach img,$(titles),$(title)/$(img).bmp)
 
 .PHONY: textures
 textures: $(foreach img,$(textures),$(texture)/$(img).bmp)
+
+.PHONY: skins
+skins: $(foreach img,$(skins),$(skin)/MainMenu/$(img).bmp)
 
 .PHONY: palette_gen
 palette_gen: $(foreach img,$(textures),$(texture)/$(img)_128.bmp) $(foreach img,$(titles),$(title)/$(img).png)
@@ -73,6 +78,10 @@ $(texture)%_128.bmp: $(texture)%.jpg
 $(texture)%.bmp: $(texture)%_128.bmp | Base.rte/palette.bmp
 	$(convert) -type palette "$<" $(palette) "$@"
 
+# main menu needs true color versions
+$(skin)/MainMenu/%.bmp: $(skin)/Base/%.bmp
+	$(convert) "$<" -colorspace rgb -type truecolor "$@"
+
 .PHONY: clean
 clean:
 	rm Base.rte/palette.bmp
@@ -80,3 +89,4 @@ clean:
 	rm $(foreach img,$(titles),$(title)/$(img)Alpha.bmp)
 	rm $(foreach img,$(textures),$(texture)/$(img).bmp)
 	rm $(foreach img,$(textures),$(texture)/$(img)_128.bmp)
+	rm $(foreach img,$(skins),$(skin)/MainMenu/$(img).bmp)
