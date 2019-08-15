@@ -4,6 +4,7 @@ Base.rte/Title/Planet.bmp
 Base.rte/Title/Title.bmp
 Base.rte/Title/Nebula.bmp
 Base.rte/Scenes/Textures/*.bmp
+Base.rte/GUIs/Skins/MainMenu/*.bmp
 Base.rte/palette.bmp
 Log*.txt
 Base.rte/Settings.ini

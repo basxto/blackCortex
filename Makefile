@@ -6,7 +6,7 @@ texture=Base.rte/Scenes/Textures
 palette= -dither FloydSteinberg -remap Base.rte/palette.bmp 
 textures=Water Soil Snow Sand RockRed RockDarkRed RockBlack Ice Grass DirtRough DirtMedium DirtFine DirtDark
 titles=Planet Moon Title Nebula
-skins=Cursive1 goldgui NeoSans pointer resize text tom_thumb_shadow
+skins=Cursive1 goldgui NeoSans pointer resize text tom_thumb_shadow Corsive2
 
 ifndef convert
 $(error "convert is not available, please install imagemagick")
