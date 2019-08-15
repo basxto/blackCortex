@@ -26,7 +26,7 @@ $ make
 
 * Crash free until main menu
 * GUI is not usable, all buttons stacked at one place
-* All game editors crash
+* All game editors don't crash on startup
 * Choosing tutorial when selecting campaign crashes
 
 ## How does a mod know if blackCortex is running?
