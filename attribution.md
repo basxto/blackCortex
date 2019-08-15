@@ -8,13 +8,15 @@ Gamepad*.bmp and DualAnalog*.bmp in [Base.rte/GUIs/Controllers/](./Base.rte/GUIs
 
 Other textures in [Base.rte/Scenes/Textures/](Base.rte/Scenes/Textures/) are from [Terrain textures pack (from Stunt Rally 2.3)][stuntrally] and are licensed under [CC0][] by [CryHam][].
 
-[Base.rte/GUIs/Skins/MainMenu/Cursive1.bmp](./Base.rte/GUIs/Skins/MainMenu/Cursive1.bmp) is a slightly modified version of Cursive1 and [Base.rte/GUIs/Skins/MainMenu/NeoSans.bmp](./Base.rte/GUIs/Skins/MainMenu/NeoSans.bmp) is a NeoSans from [New original Grafx2 font collection][grafx2font], which is licensed under [CC0][] by [usr_share][].
+[Base.rte/GUIs/Skins/Base/Cursive1.bmp](./Base.rte/GUIs/Skins/Base/Cursive1.bmp) is a slightly modified version of Cursive1 and [Base.rte/GUIs/Skins/Base/NeoSans.bmp](./Base.rte/GUIs/Skins/MainMenu/NeoSans.bmp) is a NeoSans from [New original Grafx2 font collection][grafx2font], which is licensed under [CC0][] by [usr_share][].
 
-[Base.rte/GUIs/Skins/MainMenu/goldgui.bmp](./Base.rte/GUIs/Skins/MainMenu/goldgui.bmp) is based on [Golden UI][goldenui], which is licensed under [CC0][] by [Buch][].
+[Base.rte/GUIs/Skins/Base/Corsive2.bmp](./Base.rte/GUIs/Skins/Base/Corsive2.bmp) is a highly modified version of Cursive2 from [New original Grafx2 font collection][grafx2font], which is licensed under [CC0][] by [usr_share][].
 
-[Base.rte/GUIs/Skins/MainMenu/pointer.bmp](./Base.rte/GUIs/Skins/MainMenu/pointer.bmp) is based on [Concrete UI, part 2][concreteui2], which is licensed under [CC0][] by [Buch][].
+[Base.rte/GUIs/Skins/Base/goldgui.bmp](./Base.rte/GUIs/Skins/Base/goldgui.bmp) is based on [Golden UI][goldenui], which is licensed under [CC0][] by [Buch][].
 
-[Base.rte/GUIs/Skins/MainMenu/tom_thumb_shadow.bmp](./Base.rte/GUIs/Skins/MainMenu/tom_thumb_shadow.bmp) is based on [Tom Thumb Tiny ASCII font (3x5)][tomthumb] , which is licensed under [CC0][] by [Robey Pointer][robey].
+[Base.rte/GUIs/Skins/Base/pointer.bmp](./Base.rte/GUIs/Skins/Base/pointer.bmp) is based on [Concrete UI, part 2][concreteui2], which is licensed under [CC0][] by [Buch][].
+
+[Base.rte/GUIs/Skins/Base/tom_thumb_shadow.bmp](./Base.rte/GUIs/Skins/Base/tom_thumb_shadow.bmp) is based on [Tom Thumb Tiny ASCII font (3x5)][tomthumb] , which is licensed under [CC0][] by [Robey Pointer][robey].
 
 Rest is licensed under [CC0][] by [Basxto][].
 
