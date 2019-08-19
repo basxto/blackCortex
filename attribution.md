@@ -16,7 +16,11 @@ Other textures in [Base.rte/Scenes/Textures/](Base.rte/Scenes/Textures/) are fro
 
 [Base.rte/GUIs/Skins/Base/pointer.bmp](./Base.rte/GUIs/Skins/Base/pointer.bmp) is based on [Concrete UI, part 2][concreteui2], which is licensed under [CC0][] by [Buch][].
 
-[Base.rte/GUIs/Skins/Base/tom_thumb_shadow.bmp](./Base.rte/GUIs/Skins/Base/tom_thumb_shadow.bmp) is based on [Tom Thumb Tiny ASCII font (3x5)][tomthumb] , which is licensed under [CC0][] by [Robey Pointer][robey].
+[Base.rte/GUIs/Skins/Base/tom_thumb_shadow.bmp](./Base.rte/GUIs/Skins/Base/tom_thumb_shadow.bmp) is based on [Tom Thumb Tiny ASCII font (3x5)][tomthumb], which is licensed under [CC0][] by [Robey Pointer][robey].
+
+[Base.rte/Scenes/Backdrops/Back.bmp)](./Base.rte/Scenes/Backdrops/Back.bmp) and [Base.rte/Scenes/Backdrops/Middle.bmp)](./Base.rte/Scenes/Backdrops/Middle.bmp) are based on [Seamless desert background in parts][backdesert], which is licensed under [CC0][] by [PWL][].
+
+[Base.rte/Scenes/Backdrops/Clouds.bmp)](./Base.rte/Scenes/Backdrops/Clouds.bmp) is based on [Old frogatto clouds 2][frogclouds], which is licensed under [CC0][] by [Guido Bos][guido].
 
 Rest is licensed under [CC0][] by [Basxto][].
 
@@ -44,6 +48,8 @@ Rest is licensed under [CC0][] by [Basxto][].
 [tomthumb]: https://opengameart.org/content/tom-thumb-tiny-ascii-font-3x5
 [doodle]: https://opengameart.org/content/doodle-menu-like-song
 [buttonsfx]: https://opengameart.org/content/button-sfx-pack-ii-granular-synthesis-styled
+[backdesert]: https://opengameart.org/content/seamless-desert-background-in-parts
+[frogclouds]: https://opengameart.org/content/old-frogatto-clouds-2
 
 [Basxto]: https://opengameart.org/users/ba%C5%9Dto
 [Rawdanitsu]: https://opengameart.org/users/rawdanitsu
@@ -55,6 +61,8 @@ Rest is licensed under [CC0][] by [Basxto][].
 [robey]: http://robey.lag.net/
 [StumpyStrust]: https://opengameart.org/users/stumpystrust
 [Circlerun]: https://opengameart.org/users/circlerun
+[PWL]: https://opengameart.org/users/pwl
+[guido]: http://neoriceisgood.deviantart.com/
 
 
 [CC0]: http://creativecommons.org/publicdomain/zero/1.0/
