@@ -20,16 +20,16 @@ $(error "montage is not available, please install imagemagick")
 endif
 
 .PHONY: cc
-all: palette_cc titles textures skins
+all: palette_cc titles skins
 
 .PHONY: 16
-16: palette_16 titles textures skins
+16: palette_16 titles skins
 
 .PHONY: db16
-db16: palette_db16 titles textures skins
+db16: palette_db16 titles skins
 
 .PHONE: gen
-cc: palette_gen titles textures skins
+cc: palette_gen titles skins
 
 .PHONY: titles
 titles: $(foreach img,$(titles),$(title)/$(img).bmp)
@@ -87,6 +87,5 @@ clean:
 	rm Base.rte/palette.bmp
 	rm $(foreach img,$(titles),$(title)/$(img).bmp)
 	rm $(foreach img,$(titles),$(title)/$(img)Alpha.bmp)
-	rm $(foreach img,$(textures),$(texture)/$(img).bmp)
 	rm $(foreach img,$(textures),$(texture)/$(img)_128.bmp)
 	rm $(foreach img,$(skins),$(skin)/MainMenu/$(img).bmp)
