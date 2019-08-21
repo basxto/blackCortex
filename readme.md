@@ -39,3 +39,13 @@ if rte.blackCortex then
     print("blackCortex v" .. rte.blackCortex .. " is running")
 end
 ```
+
+## Building on Windows
+*You need to download the standalone make and imagemagick linked below.*
+
+```
+> make.exe
+```
+
+
+This was tested with [wine-4.13 (Staging)](https://www.winehq.org/announce/4.13), [GNU make for Windows 4.2](http://www.equation.com/servlet/equation.cmd?fa=make) and [ImageMagick-7.0.8-61-portable-Q16-x64.zip](https://imagemagick.org/script/download.php) (extracted to `.\imagemagick\` folder)
