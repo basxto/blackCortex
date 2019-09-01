@@ -24,5 +24,4 @@ function Test:EndActivity()
 end
 
 function Test:UpdateActivity()
-	print("Test:UpdateActivity()");
 end
