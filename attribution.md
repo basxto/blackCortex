@@ -18,9 +18,17 @@ Other textures in [Base.rte/Scenes/Textures/](Base.rte/Scenes/Textures/) are fro
 
 [Base.rte/GUIs/Skins/Base/tom_thumb_shadow.bmp](./Base.rte/GUIs/Skins/Base/tom_thumb_shadow.bmp) is based on [Tom Thumb Tiny ASCII font (3x5)][tomthumb], which is licensed under [CC0][] by [Robey Pointer][robey].
 
-[Base.rte/Scenes/Backdrops/Back.bmp)](./Base.rte/Scenes/Backdrops/Back.bmp) and [Base.rte/Scenes/Backdrops/Middle.bmp)](./Base.rte/Scenes/Backdrops/Middle.bmp) are based on [Seamless desert background in parts][backdesert], which is licensed under [CC0][] by [PWL][].
+[Base.rte/Scenes/Backdrops/Back.bmp](./Base.rte/Scenes/Backdrops/Back.bmp) and [Base.rte/Scenes/Backdrops/Middle.bmp](./Base.rte/Scenes/Backdrops/Middle.bmp) are based on [Seamless desert background in parts][backdesert], which is licensed under [CC0][] by [PWL][].
 
-[Base.rte/Scenes/Backdrops/Clouds.bmp)](./Base.rte/Scenes/Backdrops/Clouds.bmp) is based on [Old frogatto clouds 2][frogclouds], which is licensed under [CC0][] by [Guido Bos][guido].
+[Base.rte/Scenes/Backdrops/Clouds.bmp](./Base.rte/Scenes/Backdrops/Clouds.bmp) is based on [Old frogatto clouds 2][frogclouds], which is licensed under [CC0][] by [Guido Bos][guido].
+
+[Base.rte/Scenes/Objects/Fossils/Fossil000.bmp](./Base.rte/Scenes/Objects/Fossils/Fossil000.bmp) to [Base.rte/Scenes/Objects/Fossils/Fossil002.bmp](./Base.rte/Scenes/Objects/Fossils/Fossil002.bmp) are based on [Bone Planet][bplanet], which is licensed under [CC0][] by [Hyptosis][].
+
+[Base.rte/Scenes/Objects/Boulders/Boulder000.bmp](./Base.rte/Scenes/Objects/Boulders/Boulder000.bmp) and [Base.rte/Scenes/Objects/Boulders/Boulder001.bmp](./Base.rte/Scenes/Objects/Boulders/Boulder001.bmp) are based on [Rocks][], which is licensed under [CC0][] by [Écrivain][].
+
+[Base.rte/Scenes/Objects/Gold/Gold000.bmp](./Base.rte/Scenes/Objects/Gold/Gold000.bmp) is based on `default_gold_lump.png` from [Big pack of hand painted tiling textures][minetest], which is licensed under [CC0][] by [drummyfish][].
+
+[Base.rte/Scenes/Objects/Plants/Plant000.bmp](./Base.rte/Scenes/Objects/Plants/Plant000.bmp) and [Base.rte/Scenes/Objects/Plants/Plant001.bmp](./Base.rte/Scenes/Objects/Plants/Plant001.bmp) are based on [Forest Tiles][forest], which is licensed under [CC0][] by [surt][].
 
 Rest is licensed under [CC0][] by [Basxto][].
 
@@ -50,6 +58,11 @@ Rest is licensed under [CC0][] by [Basxto][].
 [buttonsfx]: https://opengameart.org/content/button-sfx-pack-ii-granular-synthesis-styled
 [backdesert]: https://opengameart.org/content/seamless-desert-background-in-parts
 [frogclouds]: https://opengameart.org/content/old-frogatto-clouds-2
+[bplanet]: https://opengameart.org/content/bone-planet
+[Rocks]: https://opengameart.org/content/rocks
+[minetest]: https://opengameart.org/content/big-pack-of-hand-painted-tiling-textures
+[forest]: https://opengameart.org/content/forest-tiles
+
 
 [Basxto]: https://opengameart.org/users/ba%C5%9Dto
 [Rawdanitsu]: https://opengameart.org/users/rawdanitsu
@@ -63,6 +76,12 @@ Rest is licensed under [CC0][] by [Basxto][].
 [Circlerun]: https://opengameart.org/users/circlerun
 [PWL]: https://opengameart.org/users/pwl
 [guido]: http://neoriceisgood.deviantart.com/
+[Hyptosis]: https://opengameart.org/users/hyptosis
+[Écrivain]: https://opengameart.org/users/%C3%A9crivain
+[drummyfish]: https://opengameart.org/users/drummyfish
+[surt]: https://opengameart.org/users/surt
+
+
 
 
 [CC0]: http://creativecommons.org/publicdomain/zero/1.0/
