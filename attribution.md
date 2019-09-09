@@ -6,6 +6,10 @@ Gamepad*.bmp and DualAnalog*.bmp in [Base.rte/GUIs/Controllers/](./Base.rte/GUIs
 
 [Base.rte/Scenes/Textures/Water.png](Base.rte/Scenes/Textures/Water.png) is from [3 live proceduraly generated tiling water textures (512px, running brushes)][3water] and is licensed under [CC0][] by [qubodup][].
 
+[Base.rte/Scenes/Textures/DirtDark.bmp](Base.rte/Scenes/Textures/DirtDark.bmp) is from [Big pack of hand painted tiling textures][handtiled] and is licensed under [CC0][] by [drummyfish][].
+
+[Base.rte/Scenes/Textures/Grass.bmb](Base.rte/Scenes/Textures/Grass.bmp) is based on [Dungeon Crawl 32x32 tiles][dcrawl], which is licensed under [CC0][] by Dungeon Crawl Stone Soup team and probably was originally created by [Denzi][].
+
 Other textures in [Base.rte/Scenes/Textures/](Base.rte/Scenes/Textures/) are from [Terrain textures pack (from Stunt Rally 2.3)][stuntrally] and are licensed under [CC0][] by [CryHam][].
 
 [Base.rte/GUIs/Skins/Base/Cursive1.bmp](./Base.rte/GUIs/Skins/Base/Cursive1.bmp) is a slightly modified version of Cursive1 and [Base.rte/GUIs/Skins/Base/NeoSans.bmp](./Base.rte/GUIs/Skins/MainMenu/NeoSans.bmp) is a NeoSans from [New original Grafx2 font collection][grafx2font], which is licensed under [CC0][] by [usr_share][].
@@ -71,6 +75,8 @@ Rest is licensed under [CC0][] by [Basxto][].
 [Rocks]: https://opengameart.org/content/rocks
 [minetest]: https://opengameart.org/content/big-pack-of-hand-painted-tiling-textures
 [forest]: https://opengameart.org/content/forest-tiles
+[dcrawl]: https://opengameart.org/content/dungeon-crawl-32x32-tiles
+[handtiled]: https://opengameart.org/content/big-pack-of-hand-painted-tiling-textures
 
 [Basxto]: https://opengameart.org/users/ba%C5%9Dto
 [Rawdanitsu]: https://opengameart.org/users/rawdanitsu
@@ -91,5 +97,6 @@ Rest is licensed under [CC0][] by [Basxto][].
 [Écrivain]: https://opengameart.org/users/%C3%A9crivain
 [drummyfish]: https://opengameart.org/users/drummyfish
 [surt]: https://opengameart.org/users/surt
+[Denzi]: http://www3.wind.ne.jp/DENZI/diary/
 
 [CC0]: http://creativecommons.org/publicdomain/zero/1.0/
