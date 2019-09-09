@@ -31,16 +31,16 @@ skins=Cursive1 goldgui NeoSans pointer resize text tom_thumb_shadow Corsive2
 convert+= -define bmp:format=bmp3
 
 .PHONY: cc
-all: palette_cc titles textures skins
+all: palette_cc titles skins
 
 .PHONY: 16
-16: palette_16 titles textures skins
+16: palette_16 titles skins
 
 .PHONY: db16
-db16: palette_db16 titles textures skins
+db16: palette_db16 titles skins
 
 .PHONE: gen
-cc: palette_gen titles textures skins
+cc: palette_gen titles skins
 
 .PHONY: titles
 titles: $(foreach img,$(titles),$(title)$(img).bmp)
@@ -99,6 +99,5 @@ clean:
 	cd "$(base)" && $(rm) "palette.bmp"
 	cd "$(title)" && $(rm) $(foreach img,$(titles),"$(img).bmp")
 	cd "$(title)" && $(rm) $(foreach img,$(titles),"$(img)Alpha.bmp")
-	cd "$(texture)" && $(rm) $(foreach img,$(textures),"$(img).bmp")
 	cd "$(texture)" && $(rm) $(foreach img,$(textures),"$(img)_128.bmp")
 	cd "$(mainskin)" && $(rm) $(foreach img,$(skins),"$(img).bmp")
